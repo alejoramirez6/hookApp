@@ -5,3 +5,6 @@ Cuarto
 --quinto
 --sext
 --septimo
+**octavo
+**noveno
+**décimo
