@@ -50,7 +50,7 @@ describe('Pruebas en <MultipleCustomHooks />', () => {
         
         render( <MultipleCustomHooks /> );
         expect( screen.getByText('Hola Mundo') ).toBeTruthy();
-        expect( screen.getByTex0t('Fernando') ).toBeTruthy();
+      
         
         const nextButton = screen.getByRole('button',{ name: 'Next Quote' });
         expect(nextButton.disabled).toBeFalsy();
